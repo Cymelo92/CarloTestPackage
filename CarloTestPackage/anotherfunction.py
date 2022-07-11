@@ -18,9 +18,9 @@ def anotherfunction(x, y=0):
     --------
     .. ipython:: python
 
-        import TemplatePythonPackage
+        import CarloTestPackage
 
-        TemplatePythonPackage.anotherfunction(1, 2)
+        CarloTestPackage.anotherfunction(1, 2)
 
     """
     return x + y
