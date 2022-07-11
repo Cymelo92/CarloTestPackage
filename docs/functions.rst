@@ -1,6 +1,6 @@
 Functions
 -----------------------
 
-.. autofunction:: TemplatePythonPackage.joke
+.. autofunction:: CarloTestPackage.joke
 
-.. autofunction:: TemplatePythonPackage.anotherfunction
+.. autofunction:: CarloTestPackage.anotherfunction
