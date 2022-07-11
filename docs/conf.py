@@ -24,9 +24,9 @@ sys.path.insert(0, os.path.abspath("../"))
 
 
 # -- Project information -----------------------------------------------------
-project = "TemplatePythonPackage"
+project = "CarloTestPackage"
 copyright = f"2020–{datetime.datetime.now().year}"
-author = "Dominique Makowski"
+author = "Carlo Meloni"
 
 # The short X.Y version.
 def find_version():
@@ -82,7 +82,9 @@ napoleon_numpy_docstring = True
 napoleon_use_param = False
 napoleon_use_ivar = False
 napoleon_use_rtype = False
-add_module_names = False  # If true, the current module name will be prepended to all description
+add_module_names = (
+    False  # If true, the current module name will be prepended to all description
+)
 
 
 # -- Options for myst_nb ---------------------------------------------------
@@ -106,8 +108,8 @@ html_theme = "sphinx_book_theme"
 
 # https://sphinx-book-theme.readthedocs.io/en/latest/customize/index.html
 html_theme_options = {
-    "repository_url": "https://github.com/RealityBending/TemplatePythonPackage",
-    "repository_branch": "main", 
+    "repository_url": "https://github.com/Cymelo92/CarloTestPackage",
+    "repository_branch": "main",
     "use_repository_button": True,
     "use_issues_button": True,
     "path_to_docs": "docs/",
