@@ -6,12 +6,14 @@
 
 Welcome to the documentation, where you can find information.
 
-.. hint::
+This is my first package.
+
+.. note::
     The package can be installed by running:
 
     .. code-block:: console
 
-        pip install https://github.com/RealityBending/TemplatePythonPackage/zipball/main
+        pip install https://github.com/Cymelo92/CarloTestPackage/zipball/main
 
 
 
